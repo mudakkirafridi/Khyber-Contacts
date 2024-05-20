@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "555836207643",
+    "project_id": "khyber-contacts",
+    "storage_bucket": "khyber-contacts.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555836207643:android:15aa2794aa9c694a1bfebe",
+        "android_client_info": {
+          "package_name": "com.example.khyber_contacts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9VrYbzm3yuKpDc6vzvQEwYJVJc-fhcvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
