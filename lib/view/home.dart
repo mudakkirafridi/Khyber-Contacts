@@ -12,13 +12,22 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Contacts List'),
+        backgroundColor:Colors.redAccent,
+        elevation: 5,
+        
+        centerTitle: true,
+        title: const Text('Contacts List',style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
       ),
-      body:const Column(
-        children: [
-
-        ],
-      ),
+      body: ListView.builder(
+        itemCount: 20,
+        itemBuilder: (context , index){
+        return const ListTile(
+          title:  Text('Mudakir'),
+           subtitle:  Text('03078555817'),
+           leading: CircleAvatar(),
+           trailing: Icon(Icons.more),
+        );
+      }),
     );
   }
 }
