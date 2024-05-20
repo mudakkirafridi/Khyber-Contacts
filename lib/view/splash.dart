@@ -12,7 +12,7 @@ class _SplashScreenState extends State<SplashScreen> {
  final SplashServices _splashServices = SplashServices();
 @override
   void initState() {
-    _splashServices.SplashScreenTimeout(context);
+    _splashServices.splashScreenTimeout(context);
     super.initState();
   }
   @override
